@@ -12,14 +12,14 @@ const mockData = [{
   title: '냉방문의',
   writer: 'aaa',
   content: 'rrr',
-  regDate: new Date().getTime()
+  regDate: new Date(2026,1,1).getTime()
 },
 {
   no: 2,
   title: '추가수업',
   writer: 'bbb',
   content: 'kkk',
-  regDate: new Date().getTime()
+  regDate: new Date(2026,1,3).getTime()
 }];
 
 const reducer = (state, action) => {

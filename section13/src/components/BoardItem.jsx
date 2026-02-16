@@ -8,7 +8,7 @@ const BoardItem = ({no,title,writer,regDate})=>{
       <div className="no">{no}</div>
       <div className="writer">{writer}</div>
       <div className="title">{title}</div>
-      <div className="regDate">{new Date().toLocaleDateString()}</div>
+      <div className="regDate">{new Date(regDate).toLocaleDateString()}</div>
     </div>
   </>
 }
